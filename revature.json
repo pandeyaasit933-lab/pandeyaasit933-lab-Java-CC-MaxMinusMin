@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/MaxMinusMinTest.java",
+      "testCases": [
+        {
+          "methodName": "maxMinTest1",
+          "label": "Computes difference between max and min in increasing list",
+          "description": "Verifies that difference returns 6 for the list [0,1,2,3,4,5,6]."
+        },
+        {
+          "methodName": "maxMinTest2",
+          "label": "Validates max-minus-min behavior",
+          "description": "Verifies a difference of 30 given a min value of 2 and max value of 32."
+        },
+        {
+          "methodName": "maxMinTest3",
+          "label": "Validates max-minus-min behavior",
+          "description": "Verifies a difference of 7 given a min value of 2 and a max value of 9."
+        },
+        {
+          "methodName": "maxMinTest4",
+          "label": "Validates max-minus-min behavior",
+          "description": "Verifies a difference of 0 given a array of elements with the same value."
+        }
+      ]
+    }
+  ]
+}
